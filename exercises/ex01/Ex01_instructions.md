@@ -3,7 +3,7 @@ In this exercise, you will work with a dataset to explore and understand narrow 
 
 You will be using the New York Taxi dataset, which contains detailed information about taxi trips in New York City. This dataset provides comprehensive details about each taxi trip, including temporal and spatial information, passenger count, fare details, and payment information.
 
-The goal of this excersise is to perform various transformations on it and observe their effects. To get more familiar with, it here a description of its content:
+To get more familiar with, it here a description of its content:
 
 - **vendor_id** (*StringType*): A code indicating the provider that collected the record.
 - **pickup_datetime** (*TimestampType*): The date and time when the meter was engaged.
@@ -24,6 +24,7 @@ The goal of this excersise is to perform various transformations on it and obser
 - **tolls_amount** (*DoubleType*): Total amount of all tolls paid during the trip.
 - **total_amount** (*DoubleType*): The total amount charged to passengers, not including cash tips.
 
+The goal of this excersise is to perform various transformations on it and observe their effects. 
 
 You will:
 - Create a new column `surcharge_amount` containing a surcharge amount where the surcharge is 10% of the fare amount `fare_amount`.
