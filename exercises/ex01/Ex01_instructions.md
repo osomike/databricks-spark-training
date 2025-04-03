@@ -51,6 +51,6 @@ You will:
 2. **Load Data**: Load the New York Taxi dataset from the specified S3 path.
 3. **Transform Data**: Apply transformations to create new columns like `surcharge_amount`, `is_long_trip`, and `trip_category`, and filter the dataset to include only VTS trips.
 4. **Query Plans**: Use the `explain` method to analyze the query plans for your transformations.
-5. **Performance Measurement**: Measure the time taken for operations on both partitioned and non-partitioned data and compare the results.
+5. **Performance Measurement**: Measure the time taken for operations on both partitioned and non-partitioned data and compare the results. You can store your results at the location `/mnt/dls/outputs/<your_name>` to avoid people writting results at the same location.
 
 By the end of this exercise, you should have a deeper understanding of narrow transformations in PySpark and how to analyze and optimize your Spark jobs.
