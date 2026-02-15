@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![Spark](https://img.shields.io/badge/Apache%20Spark-3.x-orange)
 ![Databricks](https://img.shields.io/badge/Databricks-Runtime%2013+-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 Hands-on PySpark training covering performance optimization techniques used in production data engineering pipelines.
 
@@ -79,10 +78,6 @@ databricks-spark-training/
 - [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
 - [Databricks Documentation](https://docs.databricks.com/)
 - [PySpark API Reference](https://spark.apache.org/docs/latest/api/python/)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
