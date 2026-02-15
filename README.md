@@ -1,8 +1,18 @@
 # Databricks Spark Training
 
-Welcome to the Databricks Spark Training repository! This repository contains training materials, notebooks, and exercises designed to help you learn Apache Spark using the Databricks platform.
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![Spark](https://img.shields.io/badge/Apache%20Spark-3.x-orange)
+![Databricks](https://img.shields.io/badge/Databricks-Runtime%2013+-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+Hands-on PySpark training covering performance optimization techniques used in production data engineering pipelines.
+
+## Skills Covered
+
+`PySpark` `Query Optimization` `Data Skew Handling` `Adaptive Query Execution` `Partitioning` `Join Strategies` `Spark UI Analysis`
 
 ## Repository Structure
+
 ```
 databricks-spark-training/
 ├── notebooks/
@@ -14,8 +24,8 @@ databricks-spark-training/
 │   │   └── Ex01_instructions.md
 │   ├── ex02/
 │   │   └── Ex02_instructions.md
-
 ```
+
 ## Course Content
 
 ### Notebooks
@@ -56,13 +66,23 @@ databricks-spark-training/
 
 1. **Set up your Databricks environment**:
    - Log in to your Databricks workspace
-   - You can setup your github account on the workspace so you can clone this repository right way, this is not mandatory.
-   - Listen to instructions about which cluster you should use.
+   - You can set up your GitHub account on the workspace so you can clone this repository right away (this is not mandatory)
+   - Listen to instructions about which cluster you should use
 
 ## Prerequisites
 
-- Basic understanding of python and distributed computing
+- Basic understanding of Python and distributed computing
 - Access to a Databricks workspace
+
+## Resources
+
+- [Apache Spark Documentation](https://spark.apache.org/docs/latest/)
+- [Databricks Documentation](https://docs.databricks.com/)
+- [PySpark API Reference](https://spark.apache.org/docs/latest/api/python/)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
